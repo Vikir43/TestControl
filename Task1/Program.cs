@@ -1,7 +1,7 @@
 ﻿using static System.Console;
 Clear();
 
-Write("Введите массив строк  через пробел:  ");
+Write("Введите массив из символов через пробел:  ");
 string[]array1 = ReadLine()!.Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
 PrintArray(array1);

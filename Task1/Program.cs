@@ -27,6 +27,6 @@ void PrintArray(string[] inArray)
     {
         Write($"{inArray[i]} ");
     }
-    WriteLine("");
+    WriteLine("]");
 }
 
